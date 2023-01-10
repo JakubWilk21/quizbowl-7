@@ -12,6 +12,9 @@
 		CEFA8979296C6F4F007EBC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA8978296C6F4F007EBC98 /* Assets.xcassets */; };
 		CEFA897C296C6F4F007EBC98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA897B296C6F4F007EBC98 /* Preview Assets.xcassets */; };
 		CEFA8987296C7204007EBC98 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA8986296C7204007EBC98 /* Question.swift */; };
+		CEFA8989296DBB3E007EBC98 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA8988296DBB3E007EBC98 /* CustomButton.swift */; };
+		CEFA898B296DBD2A007EBC98 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA898A296DBD2A007EBC98 /* ProgressBar.swift */; };
+		CEFA898D296DBF14007EBC98 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA898C296DBF14007EBC98 /* AnswerRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		CEFA8978296C6F4F007EBC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFA897B296C6F4F007EBC98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEFA8986296C7204007EBC98 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CEFA8988296DBB3E007EBC98 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		CEFA898A296DBD2A007EBC98 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		CEFA898C296DBF14007EBC98 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 		CEFA8984296C70D7007EBC98 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				CEFA8988296DBB3E007EBC98 /* CustomButton.swift */,
+				CEFA898A296DBD2A007EBC98 /* ProgressBar.swift */,
+				CEFA898C296DBF14007EBC98 /* AnswerRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -164,8 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFA8989296DBB3E007EBC98 /* CustomButton.swift in Sources */,
 				CEFA8987296C7204007EBC98 /* Question.swift in Sources */,
 				CEFA8977296C6F4E007EBC98 /* ContentView.swift in Sources */,
+				CEFA898B296DBD2A007EBC98 /* ProgressBar.swift in Sources */,
+				CEFA898D296DBF14007EBC98 /* AnswerRow.swift in Sources */,
 				CEFA8975296C6F4E007EBC98 /* quizbowl_7App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
