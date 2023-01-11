@@ -15,6 +15,7 @@
 		CEFA8989296DBB3E007EBC98 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA8988296DBB3E007EBC98 /* CustomButton.swift */; };
 		CEFA898B296DBD2A007EBC98 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA898A296DBD2A007EBC98 /* ProgressBar.swift */; };
 		CEFA898D296DBF14007EBC98 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA898C296DBF14007EBC98 /* AnswerRow.swift */; };
+		CEFA898F296F0DDE007EBC98 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA898E296F0DDE007EBC98 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CEFA8988296DBB3E007EBC98 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		CEFA898A296DBD2A007EBC98 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		CEFA898C296DBF14007EBC98 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		CEFA898E296F0DDE007EBC98 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				CEFA8976296C6F4E007EBC98 /* ContentView.swift */,
+				CEFA898E296F0DDE007EBC98 /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				CEFA8989296DBB3E007EBC98 /* CustomButton.swift in Sources */,
 				CEFA8987296C7204007EBC98 /* Question.swift in Sources */,
 				CEFA8977296C6F4E007EBC98 /* ContentView.swift in Sources */,
+				CEFA898F296F0DDE007EBC98 /* QuestionView.swift in Sources */,
 				CEFA898B296DBD2A007EBC98 /* ProgressBar.swift in Sources */,
 				CEFA898D296DBF14007EBC98 /* AnswerRow.swift in Sources */,
 				CEFA8975296C6F4E007EBC98 /* quizbowl_7App.swift in Sources */,
