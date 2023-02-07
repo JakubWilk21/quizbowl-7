@@ -10,7 +10,6 @@
 		CEFA8975296C6F4E007EBC98 /* quizbowl_7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA8974296C6F4E007EBC98 /* quizbowl_7App.swift */; };
 		CEFA8977296C6F4E007EBC98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA8976296C6F4E007EBC98 /* ContentView.swift */; };
 		CEFA8979296C6F4F007EBC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA8978296C6F4F007EBC98 /* Assets.xcassets */; };
-		CEFA897C296C6F4F007EBC98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA897B296C6F4F007EBC98 /* Preview Assets.xcassets */; };
 		CEFA8987296C7204007EBC98 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA8986296C7204007EBC98 /* Question.swift */; };
 		CEFA8989296DBB3E007EBC98 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA8988296DBB3E007EBC98 /* CustomButton.swift */; };
 		CEFA898B296DBD2A007EBC98 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA898A296DBD2A007EBC98 /* ProgressBar.swift */; };
@@ -25,7 +24,6 @@
 		CEFA8974296C6F4E007EBC98 /* quizbowl_7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizbowl_7App.swift; sourceTree = "<group>"; };
 		CEFA8976296C6F4E007EBC98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEFA8978296C6F4F007EBC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEFA897B296C6F4F007EBC98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEFA8986296C7204007EBC98 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CEFA8988296DBB3E007EBC98 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		CEFA898A296DBD2A007EBC98 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 		CEFA897A296C6F4F007EBC98 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CEFA897B296C6F4F007EBC98 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -170,7 +167,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFA897C296C6F4F007EBC98 /* Preview Assets.xcassets in Resources */,
 				CEFA8979296C6F4F007EBC98 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

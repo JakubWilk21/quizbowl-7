@@ -17,16 +17,15 @@ struct ContentView: View {
                         .font(.title)
                         .fontWeight(.heavy)
                         .foregroundColor(.yellow)
-                    Text("ready to test your skillz?")
+                    Text("Ready to test your skilz?")
                         .foregroundColor(.yellow)
                 }
                 NavigationLink {
                     QuestionView()
                         .environmentObject(quizManager)
+                } label: {
+                    CustomButton(text: "Start")
                 }
-            label: {
-                CustomButton(text: "Start")
-            }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .ignoresSafeArea(.all)
@@ -34,7 +33,7 @@ struct ContentView: View {
         }
     }
 }
-    
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
